@@ -32,7 +32,6 @@ body {
     background-color: var(--grey-800);
     color: white;
     min-width: 350px;
-    max-width: 500px;
     padding: 25px 15px;
     border-radius: 5%;
 }
@@ -90,4 +89,21 @@ body {
     color: var(--green);
     transform: scale(1.1);
     transition: color 250ms ease-in-out, transform 250ms ease-in-out;
+}
+
+@media (max-width: 375px) {
+    body {
+        font-size: 0.8rem;
+    }
+    #container {
+        min-width: 250px;
+    }
+}
+
+.attribution {
+    color: white;
+}
+
+.attribution a {
+    color: cyan;
 }
